@@ -7,3 +7,6 @@ class Greeting
     puts @phrase
   end
 end
+
+greeting = Greeting.new('what\'s up?')
+greeting.exchange
