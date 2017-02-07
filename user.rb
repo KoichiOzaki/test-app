@@ -6,7 +6,7 @@ class User
   end
 
   def say_my_name
-    msg = "My name is" + @name + "\n"
+    msg = "My name is " + @name + "\n"
     puts(msg)
   end
 end
